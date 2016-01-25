@@ -2,18 +2,18 @@
   "name": "test-git-build-service",
   "version": "0.0.1",
   "description": "",
-  "main": "ES6/app.js",
+  "main": "vanilla/app.js",
   "author": {
     "name": "SuperPaintman",
     "email": "superpaintmandeveloper@gmail.com",
     "url": "http://flatdev.ru/"
   },
   "scripts": {
-    "test-es6": "mocha ./ES6/test"
+    "test-vanilla": "mocha ./vanilla/test"
   },
   "keywords": [],
   "files": [
-    "ES6",
+    "vanilla",
     "README.md"
   ],
   "license": "MIT",

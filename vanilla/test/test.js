@@ -1,9 +1,9 @@
 'use strict';
 
-const assert = require('assert');
-const app = require('../app');
+var assert = require('assert');
+var app = require('../app');
 
-describe("#add", () => {
+describe("#add", function () {
     it("should valid sum", function () {
         assert.equal(app.add(1, 5), 6);
         assert.equal(app.add(10, 5), 15);

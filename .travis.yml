@@ -13,5 +13,5 @@ node_js:
 before_install:
   - "npm install -g mocha"
 script:
-  # ES6
-  - "npm run test-es6"
+  # vanilla
+  - "npm run test-vanilla"
