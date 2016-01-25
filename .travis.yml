@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "0.8"
+  - "0.6"
+  - "0.10"
+  - "0.11"
+  - "0.12"
+  - "4.0"
+  - "4.1"
+  - "5.4"
+  - "5.5"
+  - "iojs"
+before_install:
+  - "npm install -g mocha"
+script:
+  # ES6
+  - "npm run test-es6"
