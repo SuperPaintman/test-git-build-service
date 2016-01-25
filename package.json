@@ -20,5 +20,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SuperPaintman/test-git-build-service.git"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0"
   }
 }
