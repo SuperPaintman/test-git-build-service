@@ -4,7 +4,9 @@
 [![Windows Build][appveyor-image]][appveyor-url]
 [![NPM version][npm-v-image]][npm-link]
 [![NPM Downloads][npm-dm-image]][npm-link]
+[![Test Coverage][coveralls-image]][coveralls-url]
 
+--------------------------------------------------------------------------------
 
 ## License
 Copyright (c)  2016 [Alexander Krivoshhekov][github-author-link]
@@ -23,3 +25,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [travis-url]: https://travis-ci.org/SuperPaintman/test-git-build-service
 [appveyor-image]: https://img.shields.io/appveyor/ci/SuperPaintman/test-git-build-service/master.svg?label=windows
 [appveyor-url]: https://ci.appveyor.com/project/SuperPaintman/test-git-build-service
+[coveralls-image]: https://img.shields.io/coveralls/SuperPaintman/test-git-build-service/master.svg
+[coveralls-url]: https://coveralls.io/r/SuperPaintman/test-git-build-service?branch=master
