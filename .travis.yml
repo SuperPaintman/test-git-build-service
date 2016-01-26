@@ -14,4 +14,8 @@ before_install:
   - "npm install -g mocha"
 script:
   # vanilla
-  - "npm run test-vanilla"
+  - "npm run test-vanilla-ci"
+after_script:
+  # coveralls
+  - "npm install -g coveralls"
+  - "cat ./coverage/lcov.info | coveralls"
